@@ -27,7 +27,12 @@ header {
    .sidebar, .content { 
     position: absolute;  
 }
-   .sidebar { 
+
+.sidebar{
+    border-right: 3px solid gray;
+} 
+
+   .sidebar-ul { 
     width: 180px;
     text-indent: 20px;
     margin-bottom: 10%;
