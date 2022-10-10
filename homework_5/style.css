@@ -18,13 +18,17 @@ header {
     text-indent: 20px;
 }
 
+.box {
+    position: sticky;
+    margin-right: 980px;
+}
 .layout {
     width: 980px;
      margin-top: 40px;
     position: relative;
     height: 40px; 
    }
-   .sidebar, .content { 
+.sidebar, .content { 
     position: absolute;  
 }
 
