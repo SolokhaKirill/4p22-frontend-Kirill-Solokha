@@ -32,24 +32,24 @@ header {
     border-right: 3px solid grey;
 } 
 
-   .sidebar-ul { 
+.sidebar-ul { 
     width: 180px;
     text-indent: 20px;
     margin-bottom: 160%;
     line-height: 25px;
-   }
-   
-   .content {
+ }
+.content {
     left: 400px;
     width: 800px;
+ }
+h2 {
+    background-color: blue;
+    color: white;
    }
-
-   
-   ul {
+ul {
     list-style-type: none;
-    padding-top: 0%;
+    padding-bottom: 20px;
    }
-
-   a {
+a {
     color: orange;
    }
