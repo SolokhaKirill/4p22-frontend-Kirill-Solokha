@@ -20,7 +20,7 @@ header {
 
 .layout {
     width: 980px;
-     margin: 0;
+     margin-top: 40px;
     position: relative;
     height: 40px; 
    }
@@ -35,7 +35,7 @@ header {
    .sidebar-ul { 
     width: 180px;
     text-indent: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 160%;
     line-height: 25px;
    }
    
@@ -47,7 +47,7 @@ header {
    
    ul {
     list-style-type: none;
-    padding-top: 2%;
+    padding-top: 0%;
    }
 
    a {
