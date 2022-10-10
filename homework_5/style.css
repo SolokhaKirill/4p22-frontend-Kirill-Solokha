@@ -29,7 +29,7 @@ header {
 }
 
 .sidebar{
-    border-right: 3px solid blue;
+    border-right: 3px solid grey;
 } 
 
    .sidebar-ul { 
@@ -37,7 +37,6 @@ header {
     text-indent: 20px;
     margin-bottom: 10%;
     line-height: 25px;
-    border-right:  30px;
    }
    
    .content {
