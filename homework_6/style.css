@@ -5,7 +5,10 @@
     font: 0;
 }
 body {
-    float:left solid 100vw;
+    float:left solid 100%;
+    margin: auto;
+    height: 100px;
+    padding: 0;
 }
 
 html { 
@@ -14,35 +17,34 @@ html {
 
 header {
     background-color: blue;
-    height: 10%;
+    height: 100%;
     color: white;
-    line-height: 100px;
-    font-size: 40px;
-    text-indent: 20px;
+    line-height: 300%;
+    font-size: 200%;
+    text-indent: 2%;
 }
 
 .layout {
-    width: 980px;
-     margin-top: 40px;
+    margin-right: auto;
+    width: 120vw;
+    margin-top: 40px;
     position: relative;
-    height: 40px; 
+    height: calc(100/1440 * 100vw); 
    }
 .sidebar, .content { 
     position: absolute;  
-}
-
-.sidebar{
-    border-right: 3px solid grey;
 } 
 
 .sidebar-ul { 
     width: 180px;
+    /* height: calc(100/1440 * 100vw); */
     text-indent: 20px;
     margin-bottom: 160%;
     line-height: 25px;
+    border-right: 3px solid grey;
  }
 .content {
-    left: 30%;
+    left: 12%;
     width: 100%;
  }
 h2 {
@@ -51,7 +53,7 @@ h2 {
    }
 ul {
     list-style-type: none;
-    padding-bottom: 20px;
+    padding-bottom: 2vh;
    }
 a {
     color: orange;
