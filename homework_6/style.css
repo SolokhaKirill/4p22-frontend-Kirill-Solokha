@@ -36,7 +36,7 @@ header {
  }
 .box-content {
     margin-top: 1%;
-    left: 25%;
+    left: calc(180px + 15%);
     width: 100%;
     border-left: 3px solid grey;
  }
