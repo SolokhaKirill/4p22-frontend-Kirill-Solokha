@@ -86,10 +86,10 @@ body {
         top: calc(180 / 768 * 100vw);
         width: calc(29 / 768 * 100vw);
         height: calc(31 / 768 * 100vw);
-        background: url(src="free.png");
+        background: url(img/free.png);
         background-size: 100% 100%;
         opacity: 0;
-        transition: 2;
+        transition: .2 opacity;
     }
 
     .box-form__button {

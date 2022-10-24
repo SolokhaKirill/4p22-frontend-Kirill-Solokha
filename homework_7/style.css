@@ -88,10 +88,10 @@ body {
     top: calc(168 / 1440 * 100vw);
     width: calc(23 / 1440 * 100vw);
     height: calc(23 / 1440 * 100vw);
-    background: url(C:/My/Frontend/4p22-frontend-Kirill-Solokha/img/free.png);
+    background: url(img/free.png);
     background-size: 100% 100%;
-    opacity: 0;
-    transition: 2;
+    opacity: initial;
+    transition: .2s opacity;
 }
 .box-form__button {
     width: calc(180 / 1440 * 100vw);
