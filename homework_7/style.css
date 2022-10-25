@@ -81,6 +81,7 @@ body {
     border-radius: calc(7 / 1440 * 100vw);
     background: #ffffff;
 }
+
 .box-form__label-checkbox::after {
     content: "";
     position: absolute;
@@ -88,11 +89,15 @@ body {
     top: calc(168 / 1440 * 100vw);
     width: calc(23 / 1440 * 100vw);
     height: calc(23 / 1440 * 100vw);
-    background: url(img/free.png);
+    background: url(img/free.png) no-repeat;
     background-size: 100% 100%;
-    opacity: initial;
-    transition: .2s opacity;
+    opacity: 0;
+    transition: 2; 
 }
+.box-form__hidden-checkbox:checked + .box-form__label-checkbox::after {
+    opacity: 1;
+}
+
 .box-form__button {
     width: calc(180 / 1440 * 100vw);
     height: calc(52 / 1440 * 100vw);

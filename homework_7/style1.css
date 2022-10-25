@@ -86,12 +86,15 @@ body {
         top: calc(180 / 768 * 100vw);
         width: calc(29 / 768 * 100vw);
         height: calc(31 / 768 * 100vw);
-        background: url(img/free.png);
+        background: url(img/free.png) no-repeat;
         background-size: 100% 100%;
         opacity: 0;
-        transition: .2 opacity;
+        transition: 0.2s;
     }
-
+    
+    .box-form__hidden-checkbox:checked + .box-form__label-checkbox::after {
+        opacity: 1;
+    }
     .box-form__button {
         width: calc(220 / 768 * 100vw);
         height: calc(80 / 768 * 100vw);
