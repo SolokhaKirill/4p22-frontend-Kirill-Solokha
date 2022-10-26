@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.heder {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    justify-content: space-between;
+}
+.heder_picture {
+    min-width: 222px;
+    height: 50px;
+    margin: 18px 0px 12px 30px;
+    background: url(picture/logo-3.png);
+    background-size: 100% 100%;
+}
+.heder__h1 {
+    width: 100%;
+    min-width: 242px;
+    height: 44px;
+    padding-left: 20px;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    color: #787878;
+}
+.heder__reg {
+    width: 80%;
+    height: 29px;
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #787878;
+    text-align: right;
+    padding-right: 28px;
+}
+.heder__input {
+    height: 29px;
+    margin-right: 43px;
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #787878;
+    text-align: right;
+}
+
+@media screen and (min-width: 769px) {
+.box-form {
+    position: relative;
+    width: calc(600 / 1440 * 100vw);
+    height: calc(383 / 1440 * 100vw);
+    margin-top: calc(205 / 1440 * 100vw);
+    margin-left: calc(403 / 1440 * 100vw);
+    padding-top: calc(26 / 1440 * 100vw);
+    padding-right: calc(45 / 1440 * 100vw);
+    padding-bottom: calc(45 / 1440 * 100vw);
+    padding-left: calc(45 / 1440 * 100vw);
+    background: #ffffff;
+    box-shadow: 0px 0px 40px 10px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+}
+.box-form__h1 {
+    margin: 0;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: calc(50 / 1440 * 100vw);
+    text-align: center;
+    color: #787878;
+}
+.box-form__form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 92%;
+}
+.box-form__label {
+    margin-left: calc(7 / 1440 * 100vw);
+    font-weight: 700;
+    font-size: calc(16 / 1440 * 100vw);
+    line-height: calc(16 / 1440 * 100vw);
+    color: #787878;
+}
+.box-form__input {
+    width: 100%;
+    height: calc(49 / 1440 * 100vw);
+    margin-bottom: calc(13 / 1440 * 100vw);
+    padding-left: calc(13 / 1440 * 100vw);
+    border: 2px solid #787878;
+    background: #ffffff;
+    font-weight: 700;
+    font-size: calc(28 / 1440 * 100vw);
+    line-height: calc(36 / 1440 * 100vw);
+    color: #787878;
+}
+.box-form__button {
+    width: calc(180 / 1440 * 100vw);
+    height: calc(52 / 1440 * 100vw);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: calc(34 / 1440 * 100vw);
+    background: #1a226b;
+    border-radius: calc(10 / 1440 * 100vw);
+    font-weight: 700;
+    font-size: calc(24 / 1440 * 100vw);
+    line-height: calc(16 / 1440 * 100vw);
+    color: #ffffff;
+}
+}
+
+@media screen and (max-width: 769px) {
+    .box-form {
+       width: calc(728 / 768 * 100vw);
+       height: calc(697 / 768 * 100vw);
+       margin: 3% 3%;
+       padding: 5.5% 6.5%;
+       padding-right: 6.5%;
+       padding-bottom: 6.5%;
+       padding-left: 6.5%;
+       background: #ffffff;
+       box-shadow: 0 0 calc(40 / 768 * 100vw) calc(10 / 768 * 100vw) rgba(0, 0, 0, 0.25);
+       border-radius: calc(20 / 768 * 100vw);
+    }
+    
+    .box-form__h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(60 / 768 * 100vw);
+        line-height: calc(50 / 768 * 100vw);
+        text-align: center;
+        color: #787878;
+    }
+    
+    .box-form__label {
+        margin: 0.8% 0.7%;
+        font-weight: 700;
+        font-size: calc(24 / 768 * 100vw);
+        line-height: calc(16 / 768 * 100vw);
+        color: #787877;
+    }
+    
+    .box-form__input {
+        width: 100%;
+        height: calc(49 / 768 * 100vw);
+        padding-left: 1.8%;
+        border: calc(2 / 768 * 100vw) solid #787878;
+        border-radius: calc(10 / 768 * 100vw);
+        background: #ffffff;
+        font-weight: 700;
+        font-size: calc(28 / 768 * 100vw);
+        line-height: calc(36 / 768 * 100vw);
+        color: #787878;
+    }
+    .box-form__button {
+        width: calc(220 / 768 * 100vw);
+        height: calc(80 / 768 * 100vw);
+        margin-top: 12.5%;
+        border-radius: calc(10 / 768 * 100vw);
+        background: #1a226b;
+        font-weight: 700;
+        font-size: calc(32 / 768 * 100vw);
+        line-height: calc(16 / 768 * 100vw);
+        color: #ffffff;
+    }
+}
