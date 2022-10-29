@@ -28,6 +28,7 @@ body {
     font-size: 36px;
     font-family: "Inter", sans-serif;
     color: #787878;
+    text-decoration: none;
 }
 .heder__reg {
     width: 80%;

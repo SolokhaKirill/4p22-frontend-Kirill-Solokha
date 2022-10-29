@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 .heder {
     display: flex;
     width: 100%;
@@ -28,6 +30,7 @@ body {
     font-size: 36px;
     font-family: "Inter", sans-serif;
     color: #787878;
+    text-decoration: none;
 }
 .heder__reg {
     width: 80%;
@@ -109,14 +112,12 @@ body {
     margin: 0 auto;
     margin-top: ;
 }
+
 .box-form__label-radio {
     position: absolute;
     width: 0%;
     height: 0%;
     opacity: 0;
-}
-.box-form-div__radio {
-    
 }
 .box-form__textarea {
     width: 100%;
@@ -156,7 +157,6 @@ body {
     width: calc(24 / 1440 * 100vw);
     height: calc(24 / 1440 * 100vw);
     border: 2px solid #787878;
-    /* border-radius: calc(7 / 1440 * 100vw); */
     background: #ffffff;
 }
 .box-form__label-checkbox::after {
@@ -164,7 +164,7 @@ body {
     position: absolute;
     left: 7px;
     top: calc(593 / 1440 * 100vw);
-    /* bottom: calc(104 / 1440 * 100vw); */
+    bottom: calc(104 / 1440 * 100vw);
     width: calc(12 / 1440 * 100vw);
     height: calc(12 / 1440 * 100vw);
     border: 1px solid #787878;
