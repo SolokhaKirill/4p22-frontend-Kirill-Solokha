@@ -7,6 +7,7 @@ body {
 }
 a:-webkit-any-link{
     text-decoration:none !important;
+    color: #787878;
     }
 .heder {
     display: flex;
