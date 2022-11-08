@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    background-color: green;
+}
+
+.box {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    background: yellowgreen;
+    border-radius: 15px;
+}
+.box__h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.box__form {
+    margin: 0 auto;
+    margin-left: 50px;
+}
+.box-form__input {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.box-form__button {
+    margin-left: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    background: red;
+    color: black;
+}
